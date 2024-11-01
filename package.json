@@ -2,12 +2,16 @@
   "name": "nest-next-turbo",
   "private": true,
   "scripts": {
+    "ui": "pnpm --filter @repo/ui ui",
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/node": "^22.8.6",
+    "autoprefixer": "^10.4.20",
+    "npm": "^10.9.0",
     "prettier": "^3.2.5",
     "turbo": "^2.2.3",
     "typescript": "5.5.4"
